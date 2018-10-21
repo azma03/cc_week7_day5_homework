@@ -1,0 +1,20 @@
+{
+  "name": "currency_converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.22.2",
+    "webpack": "^4.21.0",
+    "webpack-cli": "^3.1.2"
+  },
+  "devDependencies": {
+    "google-charts": "^1.5.0"
+  }
+}

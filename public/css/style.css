@@ -1,0 +1,96 @@
+.application {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: Verdana, sans-serif;
+}
+
+header {
+  flex: 0 12em 0;
+  align-self: center;
+}
+
+.applicationBody {
+  display: flex;
+  flex: 1;
+}
+
+.applicationContent {
+  flex: 1;
+  background: #004385;
+  border-radius: 25px;
+  padding: 10px;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.applicationNav {
+  /* 6em is the width of the columns */
+  flex: 0 0 6em;
+}
+
+.applicationAside {
+  flex: 0 0 6em;
+}
+
+.areaChart {
+  height: 400px;
+  width: 100%;
+}
+
+label, p, h4 {
+  color: #F7FFF7;
+}
+
+label {
+  font-size: 18px;
+}
+
+label::after {
+  content: ':';
+}
+
+h4 {
+  font-size: 24px;
+  border-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+#form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#exchangeAmountDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.equalsAfter::after {
+  content: ' =';
+}
+
+#amount {
+  width: 50px;
+}
+
+.columnDisplay {
+  display: flex;
+  flex-direction: column;
+}
+
+#exchangeDate {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.exchangeDateFormat {
+  font-size: 8px;
+  padding: 0px;
+  border: 0px;
+}
